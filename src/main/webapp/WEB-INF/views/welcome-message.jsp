@@ -1,0 +1,2 @@
+
+${inputEmail}<br><br>${inputPassword}
