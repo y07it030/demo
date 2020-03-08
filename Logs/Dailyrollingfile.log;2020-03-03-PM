@@ -1,0 +1,252 @@
+03-03-2020 16:42:02:473 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 16:42:02:510 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 16:42:02:510 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 16:42:02:511 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 16:42:02:511 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 16:42:02:511 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 16:50:04:151 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 16:50:04:152 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 16:50:04:153 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 16:50:04:154 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 16:50:04:154 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 16:50:04:154 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:32:53:821 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:32:53:823 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:32:53:823 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:32:53:824 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:32:53:824 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:32:53:824 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:33:56:537 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:33:56:538 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:33:56:539 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:33:56:539 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:33:56:540 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:33:56:540 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:34:57:616 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:34:57:617 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:34:57:618 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:34:57:618 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:34:57:618 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:34:57:619 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:35:51:992 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:35:51:994 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:35:51:994 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:35:51:995 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:35:51:995 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:35:51:995 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:41:27:217 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:41:27:218 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:41:27:219 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:41:27:219 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:41:27:220 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:41:27:220 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:42:55:075 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:42:55:077 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:42:55:077 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:42:55:078 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:42:55:078 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:42:55:078 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:43:41:527 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:43:41:528 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:43:41:529 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:43:41:529 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:43:41:529 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:43:41:530 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:44:44:523 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:44:44:525 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:44:44:525 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:44:44:526 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:44:44:526 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:44:44:527 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:45:58:652 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:45:58:654 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:45:58:654 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:45:58:655 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:45:58:655 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:45:58:655 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:47:58:234 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:47:58:236 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:47:58:237 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:47:58:237 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:47:58:238 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:47:58:238 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:48:45:119 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:48:45:120 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:48:45:120 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:48:45:121 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:48:45:121 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:48:45:121 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:51:17:466 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:51:17:467 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:51:17:467 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:51:17:468 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:51:17:468 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:51:17:468 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 17:52:27:537 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 17:52:27:538 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 17:52:27:538 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 17:52:27:539 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 17:52:27:539 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 17:52:27:539 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:01:06:016 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:01:06:018 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:01:06:018 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:01:06:019 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:01:06:019 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:01:06:019 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:02:38:722 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:02:38:723 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:02:38:723 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:02:38:724 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:02:38:724 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:02:38:724 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:09:44:076 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:09:44:077 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:09:44:077 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:09:44:078 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:09:44:079 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:09:44:079 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:11:11:742 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:11:11:743 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:11:11:744 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:11:11:744 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:11:11:745 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:11:11:745 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:12:25:218 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:12:25:219 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:12:25:220 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:12:25:220 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:12:25:221 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:12:25:221 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:13:25:468 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:13:25:470 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:13:25:470 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:13:25:471 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:13:25:472 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:13:25:472 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:14:50:941 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:14:50:942 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:14:50:943 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:14:50:943 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:14:50:943 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:14:50:944 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:16:26:075 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:16:26:077 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:16:26:078 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:16:26:078 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:16:26:079 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:16:26:079 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:21:10:481 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:21:10:483 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:21:10:484 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:21:10:484 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:21:10:485 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:21:10:485 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:25:55:409 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:25:55:410 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:25:55:411 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:25:55:411 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:25:55:412 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:25:55:412 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:26:31:096 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:26:31:098 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:26:31:098 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:26:31:098 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:26:31:098 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:26:31:099 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:27:06:141 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:27:06:142 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:27:06:143 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:27:06:143 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:27:06:143 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:27:06:144 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:27:44:929 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:27:44:931 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:27:44:931 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:27:44:932 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:27:44:932 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:27:44:932 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:30:02:115 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:30:02:116 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:30:02:117 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:30:02:117 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:30:02:117 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:30:02:118 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:30:39:815 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:30:39:817 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:30:39:817 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:30:39:817 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:30:39:818 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:30:39:818 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:32:18:094 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:32:18:095 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:32:18:095 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:32:18:096 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:32:18:096 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:32:18:096 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:35:13:746 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:35:13:747 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:35:13:748 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:35:13:748 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:35:13:748 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:35:13:748 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:36:32:707 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:36:32:708 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:36:32:708 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:36:32:709 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:36:32:709 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:36:32:709 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:36:56:012 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:36:56:013 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:36:56:013 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:36:56:014 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:36:56:014 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:36:56:014 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:37:13:355 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:37:13:357 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:37:13:357 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:37:13:358 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:37:13:358 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:37:13:358 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:37:33:539 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:37:33:540 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:37:33:540 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:37:33:541 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:37:33:541 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:37:33:542 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:41:24:960 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:41:24:962 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:41:24:962 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:41:24:963 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:41:24:963 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:41:24:963 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:41:43:624 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:41:43:625 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:41:43:625 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:41:43:626 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:41:43:626 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:41:43:626 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:42:09:374 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:42:09:375 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:42:09:376 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:42:09:376 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:42:09:376 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:42:09:377 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:44:49:631 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:44:49:633 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:44:49:633 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:44:49:633 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:44:49:634 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:44:49:634 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:45:14:232 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:45:14:233 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:45:14:234 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:45:14:234 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:45:14:234 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:45:14:235 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+03-03-2020 18:48:03:094 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+03-03-2020 18:48:03:096 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+03-03-2020 18:48:03:096 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+03-03-2020 18:48:03:097 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+03-03-2020 18:48:03:097 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+03-03-2020 18:48:03:097 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
