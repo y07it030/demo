@@ -2,10 +2,14 @@ package com.example.demo.Controller;
 
 
 import java.lang.annotation.Target;
+import java.util.Locale;
 
 import javax.servlet.ServletContext;
 import javax.websocket.Session;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,11 +23,12 @@ import com.example.demo.bean.CustomerBean;
 
 @Controller
 public class FirstControllerProgramAlongWithBootStrap {
+	@Autowired
+	JdbcTemplate jdbcTemplate;
 	
 	@GetMapping("/login")
 	public String displayLogin()
 	{
-		
 		return "login-main";
 	}
 
@@ -33,7 +38,7 @@ public class FirstControllerProgramAlongWithBootStrap {
 		System.out.println(inputEmail+""+inputPassword);
 		model.addAttribute("inputEmail", inputEmail);
 		model.addAttribute("inputPassword", inputPassword);
-		model.addAttribute("customerBean",new CustomerBean());
+		model.addAttribute("cust",new CustomerBean());
 		return "welcome-message";
 	}
 }

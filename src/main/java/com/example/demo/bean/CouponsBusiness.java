@@ -1,7 +1,9 @@
 package com.example.demo.bean;
 
 import org.mockito.exceptions.misusing.UnfinishedStubbingException;
+import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
@@ -14,24 +16,16 @@ import java.util.*;
 @Component
 public class CouponsBusiness {
 
-	
+@Autowired
+@Qualifier("userProfileQualifer")
 	UserProfileDAO udao;
-	CouponBean cb;
+    CouponBean cb;
 
-	/*
-	 * public void setUdao(UserProfileDAO udao) { this.udao = udao; }
-	 */
-public CouponsBusiness()
-{
-	
-}
-	public CouponsBusiness(UserProfileDAO udao) {
-		super();
-		this.udao = udao;
-	}
+	// public void setUdao(UserProfileDAO udao) { this.udao = udao; }
 
 	public Integer couponsList(List<CouponBean> actualCouponsList) {
-		int expiryWithInDays = 6;//udao.getExpiryDate();
+		int expiryWithInDays = udao.getExpiryDate();
+		System.out.println("expdays"+expiryWithInDays);
 		int numberOfValidCoupons = 0;
 		List<CouponBean> expiredCoupons = new ArrayList();
 		List<CouponBean> validCoupons = new ArrayList();
@@ -52,5 +46,7 @@ public CouponsBusiness()
 
 		return numberOfValidCoupons;
 	}
+
+
 
 }

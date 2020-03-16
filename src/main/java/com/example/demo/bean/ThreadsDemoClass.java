@@ -16,12 +16,13 @@ public class ThreadsDemoClass extends Thread {
 	{
 //		ThreadPoolExecutor te=(ThreadPoolExecutor)Executors.newFixedThreadPool(2);
 		ScheduledThreadPoolExecutor te=new ScheduledThreadPoolExecutor(2);
-	 //    te.scheduleWithFixedDelay(new Task(),5,5,TimeUnit.SECONDS);
+	     //te.scheduleWithFixedDelay(new Task(),5,5,TimeUnit.SECONDS);
       
 }
 	
 
-	public static void main(String[] args) {
+	public static void main(String[]
+			args) {
 		
 		ThreadsDemoClass tc=new ThreadsDemoClass();
 		tc.start();

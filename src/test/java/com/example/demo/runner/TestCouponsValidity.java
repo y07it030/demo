@@ -38,7 +38,7 @@ public class TestCouponsValidity {
 	UserProfileDAO udao;
 
 	@InjectMocks
-	 CouponsBusiness cb=new CouponsBusiness(udao);
+	CouponsBusiness cb=new CouponsBusiness();
 	
 	@BeforeClass
 	public static void beforeClass()
@@ -59,7 +59,7 @@ public class TestCouponsValidity {
 	public void testCouponsValidity()
 	{
 
-		Mockito.when(udao.getExpiryDate()).thenReturn(6);
+	Mockito.when(udao.getExpiryDate()).thenReturn(6);
 	//	Mockito.doNothing().when(udao.getExpiryDate());
 		assertEquals(Integer.valueOf(1),cb.couponsList(couponList));
 	}

@@ -7,5 +7,4 @@ public interface UserProfileDAO {
 	
 	public int getExpiryDate();
 	
-
 }

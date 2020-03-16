@@ -22,10 +22,12 @@ private LocalDate endDate;
 @Value("${coupon}")
 private String coupon;
 	
-public CouponBean()
-{
 	
-}
+	
+	  public CouponBean() {
+	  
+	  }
+	 
 	public CouponBean(String coupon,LocalDate startDate,LocalDate endDate)
 	{
 		super();

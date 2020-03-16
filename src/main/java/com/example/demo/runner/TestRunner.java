@@ -11,8 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
+import com.example.demo.JPA.ServiceDataJPA;
 import com.example.demo.bean.CouponBean;
 import com.example.demo.bean.CouponsBusiness;
 import com.example.demo.bean.DemoBean;
@@ -42,6 +44,9 @@ public class TestRunner implements CommandLineRunner {
 	Java8Practice1 j8p;
 	@Autowired 
 	ThreadsDemoClass td;
+	
+	@Autowired
+	ServiceDataJPA  sj;
 
 	@Override
 	public void run(String... args)
@@ -82,6 +87,14 @@ public class TestRunner implements CommandLineRunner {
        //Java8
        j8p=ctx.getBean("java8Practice1",Java8Practice1.class);
        j8p.main(args);
+       
+       //JPA related training
+       
+       sj=ctx.getBean("serviceDataJPA",ServiceDataJPA.class);
+       sj.getTheJpaDbDetails();
+       
+  //    new ClassPathXmlApplicationContext().close();
+       
        
 	}
 	

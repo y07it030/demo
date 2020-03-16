@@ -32,6 +32,7 @@
     <div class="col-5"></div>
     </div>
 </div>
+      ${messages.text}
 </body>
 </html>
 </html>
