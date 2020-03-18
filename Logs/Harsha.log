@@ -1972,3 +1972,21 @@
 16-03-2020 11:49:56:726 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
 16-03-2020 11:49:56:726 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
 16-03-2020 11:49:56:727 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+18-03-2020 13:15:57:442 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+18-03-2020 13:15:57:445 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+18-03-2020 13:15:57:445 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+18-03-2020 13:15:57:446 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+18-03-2020 13:15:57:446 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+18-03-2020 13:15:57:447 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+18-03-2020 13:16:28:751 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+18-03-2020 13:16:28:752 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+18-03-2020 13:16:28:753 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+18-03-2020 13:16:28:754 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+18-03-2020 13:16:28:754 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+18-03-2020 13:16:28:754 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
+18-03-2020 13:23:25:036 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 103 Harsha
+18-03-2020 13:23:25:038 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 102 Lucky
+18-03-2020 13:23:25:038 Java8Practice1.java:26 main INFO Sorted by ID using comparable : 101 Harika
+18-03-2020 13:23:25:039 Java8Practice1.java:30 main INFO Sorted by Name using comparator101Harika
+18-03-2020 13:23:25:039 Java8Practice1.java:30 main INFO Sorted by Name using comparator103Harsha
+18-03-2020 13:23:25:039 Java8Practice1.java:30 main INFO Sorted by Name using comparator102Lucky
