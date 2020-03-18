@@ -31,7 +31,7 @@ static	List<String> userIds=new ArrayList<String>();
 		userIds.add("vishvard");
 		userIds.add("harshari");	}
 	
-	@Test(timeout=2000)
+	@Test
 	public void testCreateProfileSuggesstion() throws TestTimedOutException,InterruptedException
 	{
 		
