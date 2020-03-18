@@ -55,12 +55,11 @@ public class TestCouponsValidity {
 		couponList.add(new CouponBean("Coupon4",LocalDate.of(2020,02,24),LocalDate.of(2020,02,12))); //12
 	}
 
-	@Test//(expected=UnfinishedStubbingException.class)
+	@Test
 	public void testCouponsValidity()
 	{
 
 	Mockito.when(udao.getExpiryDate()).thenReturn(6);
-	//	Mockito.doNothing().when(udao.getExpiryDate());
 		assertEquals(Integer.valueOf(1),cb.couponsList(couponList));
 	}
 	@After

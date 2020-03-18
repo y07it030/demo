@@ -21,7 +21,7 @@ public class CouponsBusiness {
 	UserProfileDAO udao;
     CouponBean cb;
 
-	// public void setUdao(UserProfileDAO udao) { this.udao = udao; }
+	 public void setUdao(UserProfileDAO udao) { this.udao = udao; }
 
 	public Integer couponsList(List<CouponBean> actualCouponsList) {
 		int expiryWithInDays = udao.getExpiryDate();
