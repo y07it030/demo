@@ -11,20 +11,20 @@ public class ServiceDataJPA {
 	@Autowired
 	JPADAO jPADAO;
 	@Autowired
-	MyEntity myEntity;
+	Optional<MyEntity> myEntity;
 
 	public void getTheJpaDbDetails() {
 		// getting the values using property name
-		myEntity = jPADAO.findById(6);
-		System.out.println(myEntity.getId() + myEntity.getName());
+		myEntity = jPADAO.findById("6");
+		System.out.println(myEntity.get().getId() + myEntity.get().getName());
 
 		// Getting the values using @Query
 
 		List li = jPADAO.findByIdAndValue("harshavardhan", "8");
 		Iterator i = li.iterator();
 		while (i.hasNext()) {
-			myEntity = (MyEntity) i.next();
-			System.out.println("Iterating the list" + myEntity.getId() + "" + myEntity.getName());
+			myEntity = (Optional<MyEntity>) i.next();
+			System.out.println("Iterating the list" + myEntity.get().getId() + "" + myEntity.get().getName());
 		}
 		
 		Optional<MyEntity> li1 = jPADAO.findByIdAndValueNamed("harshavardhan", "9");

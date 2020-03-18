@@ -10,10 +10,10 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface JPADAO extends JpaRepository<MyEntity, Long> {
+public interface JPADAO extends JpaRepository<MyEntity, String> {
 
 	// 1st way using Property name
-	MyEntity findById(long id);
+	Optional<MyEntity> findById(long id);
 
 //2.1 way using query postional parameters
 	@Query("select h from MyEntity h where h.name=?1 and h.id=?2 ")
