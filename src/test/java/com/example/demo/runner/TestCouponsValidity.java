@@ -60,14 +60,14 @@ public class TestCouponsValidity {
 	{
 
 	Mockito.when(udao.getExpiryDate()).thenReturn(6);
-		assertEquals(Integer.valueOf(1),cb.couponsList(couponList));
+		assertEquals(1,cb.couponsList(couponList));
 	}
 	@After
 	public void after()
 	{
 		cb=null;
 	}
-	@AfterClass
+	@AfterClass 
 	public static void  afterClass()
 	{
 		couponList=null;

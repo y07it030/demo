@@ -16,14 +16,18 @@ import java.util.*;
 @Component
 public class CouponsBusiness {
 
-@Autowired
+
 @Qualifier("userProfileQualifer")
+@Autowired
 	UserProfileDAO udao;
     CouponBean cb;
-
+public CouponsBusiness()
+{
+	
+}
 	 public void setUdao(UserProfileDAO udao) { this.udao = udao; }
 
-	public Integer couponsList(List<CouponBean> actualCouponsList) {
+	public int couponsList(List<CouponBean> actualCouponsList) {
 		int expiryWithInDays = udao.getExpiryDate();
 		System.out.println("expdays"+expiryWithInDays);
 		int numberOfValidCoupons = 0;

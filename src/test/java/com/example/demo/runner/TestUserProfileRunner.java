@@ -19,14 +19,14 @@ import org.junit.AfterClass;
 public class TestUserProfileRunner {
 	
 
-	private static UserProfile up;
-	List userIds=new ArrayList();
+	public static UserProfile up;
+static	List<String> userIds=new ArrayList<String>();
 	
-@Before
+@BeforeClass
 	
-	public void addUserIds()
+	public static void addUserIds()
 	{
-	up=new UserProfile();
+   	    up=new UserProfile();
 		userIds.add("harsvard");
 		userIds.add("vishvard");
 		userIds.add("harshari");	}
@@ -34,7 +34,7 @@ public class TestUserProfileRunner {
 	@Test(timeout=2000)
 	public void testCreateProfileSuggesstion() throws TestTimedOutException,InterruptedException
 	{
-				Thread.sleep(2000);		
+		
 		assertEquals("harsvard1",up.CreateUserProfile(userIds,"harsvard"));
 		
 	}
@@ -44,8 +44,8 @@ public class TestUserProfileRunner {
 		assertEquals("harsvard",up.UserProfileSuggestion("harsha","vardhan"));
 	}
 	
-@After
-public void after()
+@AfterClass
+public static void after()
 {
 	up=null;
 }
