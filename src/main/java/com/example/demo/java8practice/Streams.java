@@ -4,6 +4,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -17,7 +18,6 @@ import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Configuration;
 
-import com.sun.tools.javac.code.Attribute.RetentionPolicy;
 
 public class Streams {
 
@@ -51,6 +51,18 @@ public class Streams {
 		List<Integer> k= sortList2.stream().parallel().
 			sorted((e2,e1)->e1-e2).distinct().collect(Collectors.toList());
 		System.out.println(k);
+		
+		//Stream for Map
+		
+		Set<Integer> hm=new HashSet();
+		List ail=new ArrayList(hm);
+		hm.forEach((e1)->new ArrayList(e1));
+		hm.forEach(ArrayList::new);
+		
+		hm.add(1);
+		hm.add(2);
+		
+		Set<Integer>  hm1=hm.stream().parallel().collect(Collectors.toSet());
 		
 		
 

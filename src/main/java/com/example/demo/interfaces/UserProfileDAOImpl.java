@@ -14,9 +14,9 @@ public class UserProfileDAOImpl implements UserProfileDAO{
 	JdbcTemplate jdbcTemplate;
 	@Override
 	public int getExpiryDate() {
-		String str=jdbcTemplate.queryForObject("Select 1 from dual",String.class);
+		Integer str=jdbcTemplate.queryForObject("Select id from harsha where id=?",Integer.class,new Object[] {10});
 		System.out.println("dthsfhsftt"+str);
-		return parseInt(str);
+		return str;
 	}
 
 }

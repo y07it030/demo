@@ -1,17 +1,16 @@
 package CoreJavaProgramsPractice;
 
-import java.util.HashMap;
+import java.util.*;
 import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.ui.ModelMap;
 
-import com.sun.tools.javac.util.List;
 
 public class Tuples {
 
 	public static void main(String[] args) {
-		List ai = List.of(1, 2, 3, 4, 5, 6, 3, 6, 7); // (2,7)(3,6)(4,5)
+		List ai = Arrays.asList(1, 2, 3, 4, 5, 6, 3, 6, 7); // (2,7)(3,6)(4,5)
 		ModelMap finalResult = new ModelMap();
 	/*	for (int i = 0; i < ai.length(); i++) {
 			for (int j = i + 1; j < ai.length(); j++) {
@@ -21,9 +20,9 @@ public class Tuples {
 						finalResult.put((int) ai.get(i), (int) ai.get(j));
 			}
 		}*/
-		for (int i = 0; i < ai.length(); i++) {
-			for (int j = i + 1; j < ai.length(); j++) {
-				for (int k = j + 1; k < ai.length(); k++) {
+		for (int i = 0; i < ai.size(); i++) {
+			for (int j = i + 1; j < ai.size(); j++) {
+				for (int k = j + 1; k < ai.size(); k++) {
 				int sum = (int) ai.get(i) + (int) ai.get(j)+(int)ai.get(k);
 				if (sum == 9)
 				{
