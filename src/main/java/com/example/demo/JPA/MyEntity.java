@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class MyEntity {
 	@Id
 	@Column(name = "id")
-	private long id;
+	private String id;
 	@Column(name = "name")
 	private String name;
 
@@ -21,16 +21,16 @@ public class MyEntity {
 
 	}
 
-	public MyEntity(long id, String name) {
+	public MyEntity(String id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	public long getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

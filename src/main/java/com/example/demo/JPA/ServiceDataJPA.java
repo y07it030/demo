@@ -20,14 +20,14 @@ public class ServiceDataJPA {
 
 		// Getting the values using @Query
 
-		List li = jPADAO.findByIdAndValue("harshavardhan", 8);
+		List li = jPADAO.findByIdAndValue("harshavardhan", "8");
 		Iterator i = li.iterator();
 		while (i.hasNext()) {
 			myEntity = (MyEntity) i.next();
 			System.out.println("Iterating the list" + myEntity.getId() + "" + myEntity.getName());
 		}
 		
-		Optional<MyEntity> li1 = jPADAO.findByIdAndValueNamed("harshavardhan", 9);
+		Optional<MyEntity> li1 = jPADAO.findByIdAndValueNamed("harshavardhan", "9");
 		if (li1.isPresent()) {
 			//System.out.println(li1.get().getId());
 		} else {
