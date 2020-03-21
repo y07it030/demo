@@ -1,11 +1,11 @@
-package com.example.demo.designpatterns;
+package com.example.demo.designpatterns.creational;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 import org.mockito.internal.util.reflection.Constructors;
 
-import com.example.demo.designpatterns.MySingleTon.obj;
+import com.example.demo.designpatterns.creational.MySingleTon.obj;
 
 //import com.example.demo.designpatterns.MySingleTon.obj;
 

@@ -1,4 +1,4 @@
-package com.example.demo.designpatterns;
+package com.example.demo.designpatterns.creational;
 
 import static org.hamcrest.CoreMatchers.describedAs;
 

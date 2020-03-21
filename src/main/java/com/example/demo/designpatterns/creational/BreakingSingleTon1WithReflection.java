@@ -1,4 +1,4 @@
-package com.example.demo.designpatterns;
+package com.example.demo.designpatterns.creational;
 
 import org.springframework.stereotype.Component;
 import java.lang.reflect.*;
