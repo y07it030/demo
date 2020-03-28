@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import java.util.*;
+import java.util.*;
 
 @Service
 public class ServiceDataJPA {
@@ -26,15 +27,32 @@ public class ServiceDataJPA {
 			myEntity = (Optional<MyEntity>) i.next();
 			System.out.println("Iterating the list" + myEntity.get().getId() + "" + myEntity.get().getName());
 		}
-		
+
 		Optional<MyEntity> li1 = jPADAO.findByIdAndValueNamed("harshavardhan", "9");
 		if (li1.isPresent()) {
-			//System.out.println(li1.get().getId());
+			// System.out.println(li1.get().getId());
 		} else {
 			li1.orElse(new MyEntity());
 		}
 		// Optional lik=Optional.ofNullable(li1);
 		// System.out.println("Iterating the list"+lik.orElse("no such value"));
+//Named Query
+
+		List<MyEntity> namedQueryList = jPADAO.findByMyID("manga");
+
+		for(MyEntity me: namedQueryList)
+		{
+			System.out.println(me.getId()+""+me.getName());
+		}
+		List<String> namedNativeQueryList=jPADAO.firstNativeQuery("lucky");
+		for(String me: namedNativeQueryList)
+		{
+			System.out.println(me);
+		}
+		
+		List<String> nativeQuery= jPADAO.findMyNativeQuery("8");
+		nativeQuery.forEach(System.out::println);
+		
 
 	}
 

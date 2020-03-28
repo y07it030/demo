@@ -20,7 +20,7 @@
             <div class="col-3"></div>
             <div class="col-4">
                 <i class="fa fa-align-center" aria-hidden="true">
-        <form  class="com.example.demo.Controller.FirstControllerProgramAlongWithBootStrap" action="./credentials" method="get">
+        <form  class="com.example.demo.Controller.FirstControllerProgramAlongWithBootStrap"  action="./credentials" method="get">
           <label for="inputEmail" class="sr-only">Email address</label>
           <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="inputEmail" value="${inputEmail}" required autofocus>
           <label for="inputPassword" class="sr-only">Password</label>

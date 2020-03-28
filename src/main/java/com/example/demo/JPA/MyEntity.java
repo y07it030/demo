@@ -3,13 +3,17 @@ package com.example.demo.JPA;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
 @Component
 @Entity
-@Table(name = "Harsha")
+@Table(name = "harsha")
+@NamedQuery(name = "MyEntity.findByMyID", query = "select h from MyEntity h where h.id=?1")
+@NamedNativeQuery(name="MyEntity.firstNativeQuery", query="select * from harsha where id=?")
 public class MyEntity {
 	@Id
 	@Column(name = "id")
