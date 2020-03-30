@@ -51,7 +51,8 @@
 			<c:forEach items="${cust.countries}" var="val">
 			<option>${val.key}</option>
 			</c:forEach>
-			</select>
+			</select>  
+			  ${cust.dbDetails}
 			</div>
 		</div>
 	</div>

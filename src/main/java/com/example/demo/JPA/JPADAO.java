@@ -6,6 +6,10 @@ import java.util.Optional;
 import javax.persistence.NamedQuery;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.*;
@@ -33,4 +37,10 @@ public interface JPADAO extends JpaRepository<MyEntity, String> {
 	//Using query to execute native query of sql
 	@Query(value="select * from harsha h where h.id=?1",nativeQuery=true)
 	List<String> findMyNativeQuery(String id);
+	
+	//Using pagenationandsorting
+	  
+	  @Query(value="select * from harsha h",nativeQuery=true)
+	 Page<MyEntity> findAll(Pageable pageable); 
+	 
 }

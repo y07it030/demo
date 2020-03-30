@@ -13,50 +13,75 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CustomerBean {
-	
-	@Pattern(regexp="^[A-Za-z][a-z0-9#]*")
-	@Size(min=4,max=8)
+
+	@Pattern(regexp = "^[A-Za-z][a-z0-9#]*")
+	@Size(min = 4, max = 8)
 	private String password;
 	private String confirmpassword;
 	private String country;
+	private String Id;
+	private String name;
+	private Map dbDetails;
+
+	public Map getDbDetails() {
+		return dbDetails;
+	}
+
+	public void setDbDetails(Map dbDetails) {
+		this.dbDetails = dbDetails;
+	}
+
+	public String getId() {
+		return Id;
+	}
+
+	public void setId(String id) {
+		Id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getCountry() {
 		return country;
 	}
 
-
-
-	
-
-
-
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public Map countries=new HashMap();
-	
-	public CustomerBean()
-	{
-		this.countries.put("Australia","Australia");
-		this.countries.put("INDIA","India");
+
+	public Map countries = new HashMap();
+
+	public CustomerBean() {
+		this.countries.put("Australia", "Australia");
+		this.countries.put("INDIA", "India");
 	}
-	
-	
-	
+
 	public String getPassword() {
 		return password;
 	}
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 	public Map getCountries() {
 		return countries;
 	}
+
 	public void setCountries(Map countries) {
 		this.countries = countries;
 	}
+
 	public String getConfirmpassword() {
 		return confirmpassword;
 	}
+
 	public void setConfirmpassword(String confirmpassword) {
 		this.confirmpassword = confirmpassword;
 	}

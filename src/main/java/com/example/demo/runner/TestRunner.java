@@ -91,7 +91,7 @@ public class TestRunner implements CommandLineRunner {
        //JPA related training
        
        sj=ctx.getBean("serviceDataJPA",ServiceDataJPA.class);
-       sj.getTheJpaDbDetails();
+      // sj.getTheJpaDbDetails();
        
   //    new ClassPathXmlApplicationContext().close();
        

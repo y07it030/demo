@@ -1,6 +1,10 @@
 package com.example.demo.JPA;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import java.util.*;
@@ -14,10 +18,14 @@ public class ServiceDataJPA {
 	@Autowired
 	Optional<MyEntity> myEntity;
 
-	public void getTheJpaDbDetails() {
+	public Page<MyEntity> getTheJpaDbDetails(int Pageindex) {
 		// getting the values using property name
 		myEntity = jPADAO.findById("6");
-		System.out.println(myEntity.get().getId() + myEntity.get().getName());
+		if (myEntity.isPresent()) {
+			System.out.println(myEntity.get().getId() + myEntity.get().getName());
+		} else {
+			System.out.println(myEntity.orElse(new MyEntity()));
+		}
 
 		// Getting the values using @Query
 
@@ -40,19 +48,25 @@ public class ServiceDataJPA {
 
 		List<MyEntity> namedQueryList = jPADAO.findByMyID("manga");
 
-		for(MyEntity me: namedQueryList)
-		{
-			System.out.println(me.getId()+""+me.getName());
+		for (MyEntity me : namedQueryList) {
+			System.out.println(me.getId() + "" + me.getName());
 		}
-		List<String> namedNativeQueryList=jPADAO.firstNativeQuery("lucky");
-		for(String me: namedNativeQueryList)
-		{
+		List<String> namedNativeQueryList = jPADAO.firstNativeQuery("lucky");
+		for (String me : namedNativeQueryList) {
 			System.out.println(me);
 		}
-		
-		List<String> nativeQuery= jPADAO.findMyNativeQuery("8");
+
+		List<String> nativeQuery = jPADAO.findMyNativeQuery("8");
 		nativeQuery.forEach(System.out::println);
 		
+		Pageable pageable = PageRequest.of(Pageindex, 3,Sort.by("name"));
+		Page<MyEntity> page = jPADAO.findAll(pageable);
+		List<MyEntity> lisPage = page.getContent();
+		int len = lisPage.size();
+		while (len-- > 0) {
+			System.out.println("Data for each page" + lisPage.get(len).getId()+" "+lisPage.get(len).getName());
+		}
+		return page;
 
 	}
 
