@@ -40,7 +40,7 @@ public interface JPADAO extends JpaRepository<MyEntity, String> {
 	
 	//Using pagenationandsorting
 	  
-	  @Query(value="select * from harsha h",nativeQuery=true)
+	  @Query("select h from MyEntity h")
 	 Page<MyEntity> findAll(Pageable pageable); 
 	 
 }

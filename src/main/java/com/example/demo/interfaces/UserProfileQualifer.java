@@ -18,7 +18,7 @@ public class UserProfileQualifer implements UserProfileDAO {
 	JdbcTemplate jdbcTemplate;
 	@Override
 	public int getExpiryDate() {
-	int x=	jdbcTemplate.queryForObject("select ID from harsha where rownum=?",Integer.class,new Object[] {1});
+	String x=	jdbcTemplate.queryForObject("select ID from harsha where rownum=?",String.class,new Object[] {"1"});
 	System.out.println("xxxx"+x);
       // jdbcTemplate.execute("create table hari (id number(10) primary key, name varchar2(255))");
       // jdbcTemplate.update("insert into hari values(?,?)",new Object[] {101,"hello this is my second"});
@@ -28,7 +28,7 @@ public class UserProfileQualifer implements UserProfileDAO {
 	
    //  jdbcTemplate.update("insert into hari values(?,?)",new Object[] {105,"hello this is my second"});
     // jdbcTemplate.update("delete from hari where id=?",new Object[] {100});
-		return x;
+		return Integer.valueOf(x);
 	}
 
 }

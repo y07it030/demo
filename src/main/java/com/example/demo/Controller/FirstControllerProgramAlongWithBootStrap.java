@@ -38,26 +38,45 @@ public class FirstControllerProgramAlongWithBootStrap {
 	{
 		return "login-main";
 	}
-
-	@GetMapping("/credentials")
-	public String displayDetails(@RequestParam String inputEmail,@RequestParam String inputPassword, Model model )
-	{
-		Page<MyEntity>  page=serviceJPA.getTheJpaDbDetails(1);
+	
+	@GetMapping("/getData")
+public String getPageData(@RequestParam(value="PageIndex",defaultValue = "0") int PageIndex,Model model)
+{
+		Page<MyEntity>  page=serviceJPA.getTheJpaDbDetails(PageIndex);
+		int curPage=page.getNumber();
+	
+		boolean previous=page.hasPrevious();
+		boolean next=page.hasNext();
+		System.out.println(previous);
+		System.out.println(next);
+		System.out.println(curPage);
+		
 		List<MyEntity> lisPage = page.getContent();
         Map hm=new HashMap();
-		CustomerBean c=new CustomerBean();
+        CustomerBean c=new CustomerBean();
 		for(int i=0;i<lisPage.size();i++)
 		{
 			hm.put(lisPage.get(i).getId(),lisPage.get(i).getName());
 			c.setDbDetails(hm);
 		}
+		System.out.println("Inside service"+c.getDbDetails());
+		model.addAttribute("cust",c);
+		model.addAttribute("previous",previous);
+		model.addAttribute("next",next);
+		model.addAttribute("curPage",curPage);
+		return "login-info";
+}
+	@GetMapping("/credentials")
+	public String displayDetails(@RequestParam String inputEmail,@RequestParam String inputPassword, Model model )
+	{
+		
+		
 		System.out.println(inputEmail+""+inputPassword);
 		model.addAttribute("inputEmail", inputEmail);
 		model.addAttribute("inputPassword", inputPassword);
-		System.out.println("Inside service"+c.getDbDetails());
-		model.addAttribute("cust",c);
-		//model.addAttribute("cust",new CustomerBean());
-		//model.addAttribute("cust",c);
+
+		
+		model.addAttribute("cust",new CustomerBean());
 		return "welcome-message";
 	}
 }

@@ -28,7 +28,7 @@ public CouponsBusiness()
 	 public void setUdao(UserProfileDAO udao) { this.udao = udao; }
 
 	public int couponsList(List<CouponBean> actualCouponsList) {
-		int expiryWithInDays = udao.getExpiryDate();
+		int expiryWithInDays = 6;//udao.getExpiryDate();
 		System.out.println("expdays"+expiryWithInDays);
 		int numberOfValidCoupons = 0;
 		List<CouponBean> expiredCoupons = new ArrayList();

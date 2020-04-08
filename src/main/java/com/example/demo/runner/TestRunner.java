@@ -15,6 +15,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 import com.example.demo.JPA.ServiceDataJPA;
+import com.example.demo.SpringDataMongoDB.MyDocumentClass;
+import com.example.demo.SpringDataMongoDB.MyDocumentClassRepository;
 import com.example.demo.bean.CouponBean;
 import com.example.demo.bean.CouponsBusiness;
 import com.example.demo.bean.DemoBean;
@@ -47,10 +49,24 @@ public class TestRunner implements CommandLineRunner {
 	
 	@Autowired
 	ServiceDataJPA  sj;
+	
+	@Autowired
+	MyDocumentClass dc;
+	
+	@Autowired 
+	MyDocumentClassRepository dr;
 
 	@Override
 	public void run(String... args)
 	{
+		
+		dc=ctx.getBean("myDocumentClass",MyDocumentClass.class);
+		dc.setId(555);
+		dc.setName("hello i am first record");
+		System.out.println("Succesfully inserted row into MongoDB");
+		dr.save(dc);
+		
+		
 		 List<CouponBean> ai=new ArrayList<CouponBean>();
 		dbean=(DemoBean) ctx.getBean("demoBean",DemoBean.class);
 		dbean.sayHello();
@@ -90,10 +106,16 @@ public class TestRunner implements CommandLineRunner {
        
        //JPA related training
        
-       sj=ctx.getBean("serviceDataJPA",ServiceDataJPA.class);
-      // sj.getTheJpaDbDetails();
-       
+    //   sj=ctx.getBean("serviceDataJPA",ServiceDataJPA.class);
+     //  sj.getTheJpaDbDetails(2);
+     //  sj.getJoinQueries();
+    //  sj.nOneProblem();
+ //     sj.solveNProblem();
+      // sj.getManyToManyRelations();
+    //   sj.addAuthorByID();
+   //   sj.deleteAuthorByID();
   //    new ClassPathXmlApplicationContext().close();
+   //    sj.getOneToOneRelation();
        
        
 	}

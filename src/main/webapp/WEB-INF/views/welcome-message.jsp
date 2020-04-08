@@ -51,8 +51,10 @@
 			<c:forEach items="${cust.countries}" var="val">
 			<option>${val.key}</option>
 			</c:forEach>
-			</select>  
-			  ${cust.dbDetails}
+			</select> 
+			<form action="./getData" class="com.example.demo.Controller.FirstControllerProgramAlongWithBootStrap">
+			<button type="submit">Click here</button>
+			</form>
 			</div>
 		</div>
 	</div>

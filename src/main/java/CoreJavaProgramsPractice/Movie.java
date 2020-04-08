@@ -81,14 +81,14 @@ public class Movie implements Comparable {
 			m = (Movie) i.next();
 			System.out.println(m.getName() + "" + m.getRating() + "" + m.getYear());
 		}
-		/*
+		
 		Collections.sort(ai,new compareMovieYear());
 		Iterator i1 = ai.iterator();
 		Movie m1 = null;
 		while (i1.hasNext()) {
 			m1 = (Movie) i1.next();
 			System.out.println(m1.getName() + "" + m1.getRating() + "" + m1.getYear());
-		}*/
+		}
 	}
 
 
